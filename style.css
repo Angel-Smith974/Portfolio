@@ -2,8 +2,13 @@
 
 .navbar0 h1{
     font-size: 900%;
+    text-align: center;
+   
 }
 
+.nav{
+    font-size: 300%;
+}
 
 
 .section{
@@ -38,4 +43,9 @@
 /*Contact*/
 .contact{
     margin-top: 10%;
+}
+
+.up{
+    font-size: 500%;
+    text-align: right;
 }
