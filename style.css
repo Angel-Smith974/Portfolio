@@ -1,51 +1,83 @@
-/*header*/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/****header****/
 
 .navbar0 h1{
-    font-size: 900%;
+    font-size: 15vh;
     text-align: center;
    
 }
 
-.nav{
-    font-size: 300%;
+.nav {
+    font-size: 5vh;
 }
 
+.grosTitre{
+    padding-top: 20vh;
+}
+
+
+
+
+
+/****Card****/
+
+
+/*
+.card>h2{
+    text-align: center;
+    font-size: 500%;    
+    margin-bottom: 5%;
+}*/
+
+.grandTitre02{
+    text-align: center;
+    font-size: 10vh;    
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+
+/****Vidéo****/
 
 .section{
     height: 100vh;
-    padding-top: 20%;
-    padding-bottom: 10%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
-
-
-
-/*Card*/
-
-
-
-.card>h2{
-    text-align: center;
-    font-size: 500%;
-    
-    margin-bottom: 5%;
-}
-
-
-/*Vidéo*/
 
 .video>h2{
     text-align: center;
-    font-size: 500%;
+    font-size: 10vh;
 }
 
 
-/*Contact*/
+
+
+
+/*****Contact****/
 .contact{
     margin-top: 10%;
 }
 
+
+/****Bouton up et down****/
 .up{
-    font-size: 500%;
-    text-align: right;
+    font-size: 5vh;    
+    transform: rotate(-90deg);
+    margin: 15px;
+    
+    
+}
+
+.down{
+    font-size: 5vh;
+    transform: rotate(90deg);
+    margin: 15px;
 }
